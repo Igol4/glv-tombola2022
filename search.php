@@ -1,7 +1,14 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php
+    include 'index.php'
+?>
+<h2>Rezultat:</h2>
+<link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
+
 <?php
     include 'header.php'
 ?>
-<h1>Rezultati pretraživanja</h1>
+
 <div class="tombola_container">
 <?php
     if (isset($_POST['submit-search'])) {
@@ -12,15 +19,17 @@
 
         if ($queryResult > 0) {
             while ($row = mysqli_fetch_assoc($result)) {
-                echo "<div>
-                    	<p>".$row['nagrada']."</p>
-                        <p>".$row['profesor']."</p>
-                </div>";
+                echo '<span class="rez1" style="color:#AFA;"> <div>
+                    	<p>Čestitam! Osvojili ste (nagrada): <u>'.$row['nagrada'].'</u></p>
+                        <p>kod (profesor): <u>'.$row['profesor'].'</u></p>
+                </div></span>';
             }
         }
         else {
-            echo "Nažalost, niste osvojili ništa. Više sreće drugi put!";
+            echo '<span class="rez1" style="color:#ff6969;">Nažalost, niste osvojili ništa. Više sreće drugi put!</span>';
+            
         }
     }
 ?>
 </div>
+
