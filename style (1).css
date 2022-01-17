@@ -1,0 +1,63 @@
+h1{
+    font-size:4vw;
+    text-align: center;
+}
+h2{
+    font-size:3vw;
+    text-align: center;
+}
+#input{
+    height: 3ch;
+    width: 20ch;
+    font-size: 2vw;
+}
+#tekst1{
+    font-size:2vw;
+    text-align: center;
+}
+body{
+    text-align: center;
+    color: white;
+    background-color: #191919;
+}
+.dark-mode{
+    background-color: white;
+    color: #191919;
+}
+#bt1{
+    font-size: 2vw;
+    height: 3ch;
+    width: 11ch;
+}
+#bt2{
+    font-size: 1.5vw;
+    text-align: right;
+}
+#bt3{
+    font-size: 1.5vw;
+    text-align: right;
+}
+#sponsor{
+    color: #9c9c9c;
+    font-size: 0.6vw;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    left: 0;
+}
+.neon {
+    color: #fff;
+    text-shadow:
+      0 0 5px #AFA,
+      0 0 10px #AFA,
+      0 0 20px #AFA,
+      0 0 40px #AFA,
+      0 0 80px #AFA,
+      0 0 90px #AFA,
+      0 0 100px #AFA,
+      0 0 150px #AFA;
+  }
+.rez1{
+    font-size: 1.5vw;
+  }
