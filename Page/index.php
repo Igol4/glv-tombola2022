@@ -3,7 +3,7 @@
     include 'snow.html'
 ?>
 
-<!--<button onclick="theme()" type="submit" name="submit-search" id="bt2">Svijetla tema ON/OFF *not working*</button> -->
+
 <h1 id="naslov1">Tombola 2021</h1>
 <p id="tekst1">Upišite broj tombole</p>
 <?php
@@ -41,14 +41,6 @@
         $result = mysqli_query($conn, $sql);
         $queryResults = mysqli_num_rows($result);  //how many rows of results we get from query
         
-       /* if ($queryResults > 0){
-            while ($row = mysqli_fetch_assoc($result)) {
-                echo "<div>
-                    	<p>".$row['nagrada']."</p>
-                        <p>".$row['profesor']."</p>
-                </div>";
-            }
-        }*/
     ?>
 </div>
 <?php
