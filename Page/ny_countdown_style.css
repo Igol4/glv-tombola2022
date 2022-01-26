@@ -1,0 +1,102 @@
+body{
+    background-color: #191919;
+}
+#ny{
+    color: #fff;
+    font-size: 2.2vw;
+    text-align: center;
+    position: absolute;
+    bottom: 9%;
+    right: 20%;
+    left: 0;
+}
+#nemo{
+    color: #fff;
+    font-size: 2vw;
+    text-align: center;
+    position: absolute;
+    bottom: 0.5%;
+    right: 20%;
+    left: 0;
+}
+#demo{
+    color: #fff;
+    font-size: 1.8vw;
+    text-align: center;
+    position: absolute;
+    bottom: 5%;
+    right: 20%;
+    left: 0;
+}
+
+
+/*@media only screen and (max-width: 768px){
+    body{
+        background-color: #191919;
+    }
+    #ny{
+        color: #fff;
+        font-size: 6.6vw;
+        text-align: center;
+        position: absolute;
+        bottom:39%;
+        right: 0;
+        left: 0;
+    }
+    #nemo{
+        color: #fff;
+        font-size: 6vw;
+        text-align: center;
+        position: absolute;
+        bottom: 36%;
+        right: 0;
+        left: 0;
+    }
+    #demo{
+        color: #fff;
+        font-size: 5.4vw;
+        text-align: center;
+        position: absolute;
+        bottom: 33%;
+        right: 0;
+        left: 0;
+    }
+    
+
+}
+*/
+
+@media only screen and (max-width: 1090px){
+    body{
+        background-color: #191919;
+    }
+    #ny{
+        color: #fff;
+        font-size: 5vw;
+        text-align: center;
+        position: absolute;
+        bottom:25%;
+        right: 0;
+        left: 0;
+    }
+    #nemo{
+        color: #fff;
+        font-size: 4.7vw;
+        text-align: center;
+        position: absolute;
+        bottom: 21%;
+        right: 0;
+        left: 0;
+    }
+    #demo{
+        color: #fff;
+        font-size: 4.4vw;
+        text-align: center;
+        position: absolute;
+        bottom: 17%;
+        right: 0;
+        left: 0;
+    }
+    
+
+}
